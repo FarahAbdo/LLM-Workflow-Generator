@@ -1,1 +1,3 @@
-// Flows will be imported for their side effects in this file.
+import '@/ai/flows/generate-dataset-structure.ts';
+import '@/ai/flows/generate-response-format.ts';
+import '@/ai/flows/generate-prompt.ts';
